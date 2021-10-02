@@ -10,15 +10,7 @@ import org.springframework.stereotype.Service;
 public class StudentService {
 
 	public List<Student> getStudents() {
-		return List.of(
-				new Student(1L,
-						"Mariam",
-						"mariam.jamal@gmail.com",
-						LocalDate.of(2000, Month.AUGUST, 19),
-						21
-						)
-				);
+		return List.of(new Student(1L, "Mariam", "mariam.jamal@gmail.com", LocalDate.of(2000, Month.AUGUST, 19), 21));
 	}
-	
 
 }
